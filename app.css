@@ -1,0 +1,97 @@
+html{
+    scroll-behavior: smooth;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body{
+    /* background-color: darkslateblue; */
+    font-family: cursive;
+    background-image: url(anime.jpg);
+    background-attachment: fixed;
+}
+
+.card{
+    background-image: url(2641065.gif);
+    background-attachment: fixed;
+    text-align:center;
+    margin-left: 300px;
+    margin-right: 300px;
+    font-family:cursive;
+    display:block;
+    
+}
+.card-url{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    text-align: center;
+}
+
+#user-section{
+    text-align: center;
+}
+input[type=text] {
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    text-align: center;
+    color:rgb(25, 199, 199);
+    border: 4px solid rgba(11, 177, 206, 0.61);
+    border-radius: 20px;
+    background-color: rgba(209, 33, 209, 0.397);
+   
+}
+button{
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    color: rgb(0, 0, 0);
+    border-radius: 20px;
+    transition-duration: 0.4s;
+    background-color: rgba(0, 225, 255, 0.534);
+}
+button:hover{
+    background-color: rgb(4, 129, 212);
+    color: rgb(165, 56, 165);
+
+}
+#random{
+    width: 250px;
+}
+h1{
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    text-shadow: 1px 1px 4px rgba(255, 255, 255, 0.644);
+    font-weight: bolder;
+    text-align: center;
+    background-image: url(ban.jpg);
+    color: rgba(4, 182, 236, 0.616);
+    margin-right: 170px;
+    margin-left: 150px;
+    height: 100px;
+    
+}
+
+#random-card {
+    display: none;
+}
+
+.main-title {
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    color: rgb(14, 238, 227);
+}
+.card-genres{
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    color: rgb(14, 238, 227);
+}
+.card-ep {
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    color: rgb(14, 238, 227);
+}
+.card-rating {
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    color: white;
+}
+
+.card-year{
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    color: rgb(14, 238, 227);
+}
+.card-sum {
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    color: rgb(255, 255, 255);
+}

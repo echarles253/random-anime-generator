@@ -5,34 +5,74 @@
     <link rel="stylesheet" href="app.css">
     <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
     crossorigin="anonymous"></script>
-  <!-- <script defer src="javascript/app.js"></script> -->
+    <!-- <script defer src="javascript/app.js"></script> -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>anime finder and random generator</title>
+    
 </head>
 <body>
+    
+        <h1 class="header">Welcome to the anime Finder and random generator</h1>
+    
+
     <div id="user-section">
-        <input type="text" name='search'>
+        
+        <button id="random">Random Anime?</button>
+        <button id="home-page">Return to home page?</button>
+        <input id='search' type="text" name='search'>
         <button id="submit">Search</button>
     </div>
-    <div id="main-container">
-    <span class='card'>
-         <h2 class='main-title'>
-         <img class='card-img'>
-         <p class='card-ep'>
-         <h3 class='card-rating'>
-            <p class='card-genres'>
-                <p class='card-year'>
-                    <a class='card-url'></a>
-                </p>
-            </p>
-
-     </h3>
-        </p>
+    
+    <div class="container">
+        <div id="main-container">
+            <span class='card'>
+                <h2 class='main-title'>
+                    <img class='card-img'>
+                    <a class="card-url" href=""></a>
+                    <p class='card-ep'>
+                        <h3 class='card-rating'>
+                            <p class='card-genres'>
+                                <p class='card-year'>
+                                    <a class='card-url'></a>
+                                </p>
+                            </p>
+                            
+                        </h3>
+                    </p>
+                    
+                </h2>
+            </span>
+            <div id="random-card">
+                <span class='card'>
+                    <h2 class='main-title'>
+                        <img class='card-img'>
+                        <a class="card-url" href=""></a>
+                        <p class='card-ep'>
+                            <h3 class='card-rating'>
+                                <p class='card-genres'>
+                                    <p class='card-year'>
+                                        <a class='card-url'></a>
+                                    </p>
+                                </p>
+                                
+                            </h3>
+                        </p>
                         
-        </h2>
-    </span>
+                    </h2>
+                </span>
+            </div>
+            <div id="home">
+                <span class="card">
+                    <h2 class='main-title'>
+                        <p class="empty"> </p>
+                        <a class='card-url'></a>
+                    </h2>
+                </span>
+            </div>
+        </div>
     </div>
-        <script src="app.js"></script>
+    <script src="app.js"></script>
 </body>
 </html>
+
